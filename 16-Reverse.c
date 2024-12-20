@@ -2,7 +2,7 @@
  int main()    
 {    
 int n, reverse=0, remainder;    
-printf("Enter a number: ");    
+printf("Enter a number to Reverse: ");    
   scanf("%d", &n);    
   while(n!=0)    
   {    
