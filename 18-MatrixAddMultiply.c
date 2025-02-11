@@ -2,7 +2,8 @@
 
 #define MAX 100
 
-void matrixOperation(int n, int a[MAX][MAX], int b[MAX][MAX], int result[MAX][MAX], int isMultiply) {
+void matrixOperation(int n, int a[MAX][MAX], int b[MAX][MAX], int result[MAX][MAX],
+int isMultiply) {
     int i, j, k;
     for (i = 0; i < n; i++) {
         for (j = 0; j < n; j++) {

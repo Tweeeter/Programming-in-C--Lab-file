@@ -33,7 +33,8 @@ int main() {
         printf("Enter binary: ");
         scanf("%lld", &binary);
         printf("Decimal: %d\n", binaryToDecimal(binary));
-    } else if (choice == 2) {
+    }
+	else if (choice == 2) {
         int decimal;
         printf("Enter decimal: ");
         scanf("%d", &decimal);
